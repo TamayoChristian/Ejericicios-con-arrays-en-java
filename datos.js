@@ -49,12 +49,17 @@ const personas = [
     },
 ]
 const ciudades = [
-    {nombres: "Esmeraldas", temp: 28, población: 450000},
-    {nombres: "Guayaquil", temp: 30, población: 3000000},
-    {nombres: "Quito", temp: 17, población: 1500000},
-    {nombres: "Ambato", temp: 18, población: 369000},
-    {nombres: "Portoviejo", temp: 22, población: 500000},
-    {nombres: "Cuenca", temp: 13, población: 400000},
+    {nombres: "Esmeraldas", temp: 28, población: 450000, país:"Ecuador"},
+    {nombres: "Guayaquil", temp: 30, población: 3000000, país:"Ecuador"},
+    {nombres: "Quito", temp: 17, población: 1500000, país:"Ecuador"},
+    {nombres: "Ambato", temp: 18, población: 369000, país:"Ecuador"},
+    {nombres: "Portoviejo", temp: 22, población: 500000, país:"Ecuador"},
+    {nombres: "Cuenca", temp: 13, población: 400000, país:"Ecuador"},
+    {nombres: "Cuzco", temp: 12, población: 437538, país:"Perú"},
+    {nombres: "Chiclayo", temp: 21, población: 609400, país:"Perú"},
+    {nombres: "Iquitos", temp: 32, población: 163502, país:"Perú"},
+    {nombres: "Bogotá", temp: 13, población: 7901653, país:"Colombia"},
+    {nombres: "Barranquilla", temp: 34, población: 1200000, país:"Colombia"},
 ]
 module.exports = {
     "personas": personas,

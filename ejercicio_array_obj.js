@@ -76,7 +76,5 @@ Resultado esperado:
     }
 ]
 */
-const grava = personas.map((item) => {
-        return item.apellidos;
-});
-console.log("Cambio",grava)
+const conversor = personas.map(item => delete item.cédula + delete item.peso + delete item.sexo)
+console.log(personas)

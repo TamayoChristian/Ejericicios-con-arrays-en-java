@@ -77,4 +77,4 @@ Resultado esperado:
 ]
 */
 const conversor = personas.map(item => delete item.cédula + delete item.peso + delete item.sexo)
-console.log(personas)
+console.log("convertir el array de personas en una array que tenga objetos con los campos ", personas)
